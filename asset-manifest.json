@@ -1,16 +1,13 @@
 {
   "files": {
     "main.css": "/dsm-web-app/static/css/main.073c9b0a.css",
-    "main.js": "/dsm-web-app/static/js/main.49cdec31.js",
-    "static/js/787.ef249089.chunk.js": "/dsm-web-app/static/js/787.ef249089.chunk.js",
-    "static/media/logo.svg": "/dsm-web-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.js": "/dsm-web-app/static/js/main.fa4e7e5e.js",
     "index.html": "/dsm-web-app/index.html",
     "main.073c9b0a.css.map": "/dsm-web-app/static/css/main.073c9b0a.css.map",
-    "main.49cdec31.js.map": "/dsm-web-app/static/js/main.49cdec31.js.map",
-    "787.ef249089.chunk.js.map": "/dsm-web-app/static/js/787.ef249089.chunk.js.map"
+    "main.fa4e7e5e.js.map": "/dsm-web-app/static/js/main.fa4e7e5e.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.49cdec31.js"
+    "static/js/main.fa4e7e5e.js"
   ]
 }
