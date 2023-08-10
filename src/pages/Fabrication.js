@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 const Fabrication = () => {
 
-    const [fabricationSteps, setFabricationSteps] = useState([
-        { title: "Prepare the Materials", body: "Short description...", id: 1 },
-        { title: "Assemble the Modules", body: "Short description...", id: 2 },
-        { title: "Integrate the Heater and Electrodes", body: "Short description...", id: 3 }
+    const [fabricationSteps] = useState([
+        { title: "Prepare the Modules' Components", body: "Learn how to gather and prepare the essential materials for assembling the modular units.", id: 1 },
+        { title: "Assemble the Modules", body: "Discover the step-by-step process of assembling the modules, including securing the components and aligning the design.", id: 2 },
+        { title: "Integrate the Heater and Electrodes", body: "Follow detailed instructions to integrate the heater and electrodes into the modules for enhanced functionality.", id: 3 }
     ]);
 
     return ( 

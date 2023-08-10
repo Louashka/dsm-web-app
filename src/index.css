@@ -15,7 +15,7 @@
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: #d84f2a;
 }
 .navbar .links {
   margin-left: auto;
@@ -26,8 +26,16 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: #d84f2a;
+  background-color: white;
 }
+.navbar .active {
+  background-color: #d84f2a; 
+  color: white;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
 .content {
   max-width: 1300px;
   margin: 40px auto;
@@ -44,10 +52,56 @@
 }
 .fabrication-step h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: #d84f2a;
   margin-bottom: 8px;
 }
 
 .fabrication-step a {
   text-decoration: none;
+}
+
+/* FabTutorial1 Component Styles */
+.back-link {
+  margin: 25px 0;
+}
+
+.fab-tutorial a {
+  text-decoration: none;
+  color: white;
+  background-color: #d84f2a;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+.fab-tutorial a:hover {
+  background-color: #206789;
+}
+
+.fabrication-tutorial {
+  background-color: #ededed;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.fabrication-tutorial h3 {
+  color: #206789;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.fabrication-tutorial p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.fabrication-tutorial ul, ol{
+  font-size: 16px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.fabrication-tutorial li {
+  margin-bottom: 6px;
 }

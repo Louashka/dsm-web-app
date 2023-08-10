@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import FabTutorial1 from './fabTutorials/FabTutorial1';
 import FabTutorial2 from './fabTutorials/FabTutorial2';
 import FabTutorial3 from './fabTutorials/FabTutorial3';
@@ -16,6 +16,9 @@ const FabTutorial = () => {
     return ( 
         <div className="fab-tutorial">
             <h2>Fabrication Tutorial: Step { id }</h2>
+            <div className="back-link">
+                <Link to="/fabrication">Back</Link>
+            </div>
             <SelectedTutorialComponent />
         </div>
      );
