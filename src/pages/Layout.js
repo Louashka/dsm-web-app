@@ -8,10 +8,10 @@ const Layout = () => {
                 <div className="navbar">
                     <h1>{ title }</h1>
                     <div className="links">
-                        <NavLink to="/">Home</NavLink>
-                        <NavLink to="/fabrication">Fabrication</NavLink>
-                        <NavLink to="/downloads">Downloads</NavLink>
-                        <NavLink to="/projects">Projects</NavLink>
+                        <NavLink to="/dsm-web-app/">Home</NavLink>
+                        <NavLink to="/dsm-web-app/fabrication">Fabrication</NavLink>
+                        <NavLink to="/dsm-web-app/downloads">Downloads</NavLink>
+                        <NavLink to="/dsm-web-app/projects">Projects</NavLink>
                     </div>
                 </div>
             </header>
