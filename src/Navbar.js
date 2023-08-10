@@ -1,13 +1,15 @@
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
     const title = "Modular Building Units with Dual-State Compliance";
     return ( 
         <div className="navbar">
             <h1>{ title }</h1>
             <div className="links">
-                <a href="/">Home</a>
-                <a href="/fabrication">Fabrication</a>
-                <a href="/downloads">Downloads</a>
-                <a href="/projects">Projects</a>
+                <Link to="/">Home</Link>
+                <Link to="/fabrication">Fabrication</Link>
+                <Link to="/downloads">Downloads</Link>
+                <Link to="/projects">Projects</Link>
             </div>
         </div>
      );
