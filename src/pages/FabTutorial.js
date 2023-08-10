@@ -17,7 +17,7 @@ const FabTutorial = () => {
         <div className="fab-tutorial">
             <h2>Fabrication Tutorial: Step { id }</h2>
             <div className="back-link">
-                <Link to="/fabrication">Back</Link>
+                <Link to="/dsm-web-app/fabrication">Back</Link>
             </div>
             <SelectedTutorialComponent />
         </div>

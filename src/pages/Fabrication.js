@@ -15,7 +15,7 @@ const Fabrication = () => {
             <div className="fabrication">
                 {fabricationSteps.map((step) => (
                     <div className="fabrication-step" key={step.id}>
-                        <Link to={`/fabrication/${step.id}`}>
+                        <Link to={`/dsm-web-app/fabrication/${step.id}`}>
                             <h2>{ step.title }</h2>
                             <p>{ step.body }</p>
                         </Link>
